@@ -1,0 +1,5 @@
+Post::withTrashed()->get();
+Post::onlyTrashed()->get();
+delete()
+$post->restore();
+$post->forceDelete();
